@@ -87,7 +87,16 @@ switch(opc){
 	else if(modific == 4){
 		printf("Modifificar endereço: \n");
 		scanf("%s",&end);
-	}	
+	}else if(modific == 5){
+		printf("Modifificar Nome: \n");
+		scanf("%s",&nome);
+		printf("Modifificar CNPJ: \n");
+		scanf("%s",&CNPJ);
+		printf("Modifificar Telefone: \n");
+		scanf("%s",&num);
+		printf("Modifificar endereço: \n");
+		scanf("%s",&end);	
+	}
 		break;
 		
 	case 3:
