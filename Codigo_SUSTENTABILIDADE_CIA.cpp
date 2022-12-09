@@ -32,9 +32,9 @@ int opc;
 	}
 	for(i=0; i<quant; i++){
 	printf("Nome Empresa:%s\n",nome[i]);
-	printf("CNPJ da Empresa:\n",CNPJ[i]);
-	printf("Telefone da Empresa:\n",num[i]);
-	printf("Endereço da Empresa:\n",end[i]);
+	printf("CNPJ da Empresa:%s\n",CNPJ[i]);
+	printf("Telefone da Empresa:%s\n",num[i]);
+	printf("Endereço da Empresa:%s\n",end[i]);
 	printf("CADASTRO FEITO COM SUCESSO!\n");
 	printf("_______________________________________\n");
 	}
@@ -53,9 +53,9 @@ switch(opc){
 	
 	printf("\tVISUALIZAR DADOS DO CLIENTE.\n\n");
 	printf("Nome Empresa:%s\n",nome);
-	printf("CNPJ da Empresa:\n",CNPJ);
-	printf("Telefone da Empresa:\n",num);
-	printf("Endereço da Empresa:\n",end);
+	printf("CNPJ da Empresa:%s\n",CNPJ);
+	printf("Telefone da Empresa%s:\n",num);
+	printf("Endereço da Empresa:%s\n",end);
 		
 		break;
 	case 2:
